@@ -1,0 +1,28 @@
+set makedoc_args::optionCurrentBackup(nb) 0
+set makedoc_args::optionCurrentBackup(current) 0
+set makedoc_args::option(SearchPathOption) {}
+Widget_listboxFillFromVar {makedoc_args::option(SearchPathOption)}
+set makedoc_args::option(CPPClassFilesOption) {}
+Widget_listboxFillFromVar {makedoc_args::option(CPPClassFilesOption)}
+set makedoc_args::option(DefineOption) {}
+set makedoc_args::option(TableForMemberIndexesOption) {}
+ $makedoc_args::optionWidgetEntry(TableForMemberIndexesOption) invoke
+set makedoc_args_index::optionCurrentBackup(nb) 0
+set makedoc_args_index::optionCurrentBackup(current) 0
+set makedoc_args_index::option(IndexNameFileOption) {index.html}
+set makedoc_args_index::option(DocIndexNbColumnsOption) {3}
+set makedoc_args_index::option(IndexSortLetterRankOption) {1}
+set makedoc_args::option(OutputDirOption) {C:/Users/Sasch/Desktop/makedoc}
+set makedoc_args_templ::optionCurrentBackup(nb) 0
+set makedoc_args_templ::optionCurrentBackup(current) 0
+set makedoc_args_templ::option(ClassDocTemplateFileOption) {templates/default_doc.html}
+set makedoc_args_templ::option(CDocTemplateFileOption) {templates/default_doc_C.html}
+set makedoc_args_templ::option(DocIndexTemplateFileOption) {templates/default_index.html}
+set makedoc_args_templ::option(SourceCodeViewTemplateFileOption) {templates/default_source.html}
+set makedoc_args_templ::option(CSSFileOption) {templates/default_style.css}
+set makedoc_args::option(ExternalReferencesOption) {}
+Widget_listboxFillFromVar {makedoc_args::option(ExternalReferencesOption)}
+set makedoc_args::option(ExportedReferencesURLOption) {}
+set makedoc_args::option(SubProjectsOption) {}
+Widget_listboxFillFromVar {makedoc_args::option(SubProjectsOption)}
+set makedoc_args::option(BrowserOption) {explorer.exe}
