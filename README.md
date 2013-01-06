@@ -20,7 +20,3 @@ Codeeditor mit Netzwerkfunktion
   * Settings
   * Statusbar
   * Adaptiv Coloring
-
-
-How to start a new game
------------------------
