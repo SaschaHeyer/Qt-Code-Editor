@@ -4,15 +4,22 @@ Qt-Code-Editor
 Codeeditor mit Netzwerkfunktion
 
   * Code Completion
-  * * HTML
-  * 
+  * Syntax Highlighting
+  * File Browser
+  * Document Browser
   * Network Data Sharing
   * Network WorkChatting
-  * Syntax Highlighting
   * MDI
+  * Docks
+  * Current Line Highlighting
   * Line Numbers
   * Search & Replace
   * Print (PDF)
+  * Recent Files
+  * Toolbar
+  * Settings
+  * Statusbar
+  * Adaptiv Coloring
 
 
 How to start a new game
