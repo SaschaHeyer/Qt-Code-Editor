@@ -23,7 +23,7 @@ Codeeditor mit Netzwerkfunktion
 
 ## License
 
-    Copyright 2011, 2012 Chris Banes
+    Copyright 2011, 2012 Sascha Heyer
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
